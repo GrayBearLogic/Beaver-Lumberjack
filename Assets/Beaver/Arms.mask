@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Arms
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/Leg.L.CTRL"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/Leg.L.CTRL/CTRL_Leg.L.knee"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/Leg.R.CTRL"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/Leg.R.CTRL/CTRL_Leg.R.knee"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.L.001"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.L.001/Leg.L.002"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.L.001/Leg.L.002/Leg.L.003"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.L.001/Leg.L.002/Leg.L.003/Leg.L.004"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.R.001"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.R.001/Leg.R.002"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.R.001/Leg.R.002/Leg.R.003"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/Leg.R.001/Leg.R.002/Leg.R.003/Leg.R.004"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.L.001"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.L.001/arm.L.002"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.L.001/arm.L.002/arm.L.003"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.L.001/arm.L.002/arm.L.003/arm.L.004"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.R.001"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.R.001/arm.R.002"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.R.001/arm.R.002/arm.R.003"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/arm.R.001/arm.R.002/arm.R.003/arm.R.004"
+    m_Weight: 1
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/neck"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/spine.001/neck/head"
+    m_Weight: 0
+  - m_Path: "\u0411\u043E\u0431\u0435\u0440/root/pelvis/spine/Tail"
+    m_Weight: 0
+  - m_Path: "\u0422\u0456\u043B\u043E"
+    m_Weight: 0
