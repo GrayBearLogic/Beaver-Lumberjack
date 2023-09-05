@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -8,11 +9,7 @@ public class Beaver : MonoBehaviour
 {
     private enum BeaverState { Walking, Eating, Building, Cinematic }
 
-    [SerializeField] private new Transform transform;
-    [SerializeField] private CharacterController characterController;
     [SerializeField] private VariableJoystick variableJoystick;
-    [SerializeField] private Animator animator;
-    [SerializeField] private SliderInput sliderInput;
     [SerializeField] private ParticleSystem sawdust;
     [SerializeField] private GameObject hammer;
     [SerializeField] private GameObject guide;
@@ -24,19 +21,27 @@ public class Beaver : MonoBehaviour
     [SerializeField] private float sideMoveSpeed = 0.1f;
     [SerializeField] private float eatingFactor = 2e-5f;
     
+    private CharacterController characterController;
+    private SliderInput sliderInput;
+    private Animator animator;
+
     private BeaverState state = BeaverState.Walking;
+    private Transform carriedLog;
     private Vector3 displacement;
     private Tree targetTree;
-    private Transform carriedLog;
     
     private static readonly int Speed = Animator.StringToHash("Speed");
     private static readonly int Eat = Animator.StringToHash("Eat");
     private static readonly int Carry = Animator.StringToHash("Carry");
     private static readonly int Build = Animator.StringToHash("Build");
 
-    public bool IsCarryLog
+    public bool IsCarryLog => carriedLog != null;
+
+    private void Awake()
     {
-        get => carriedLog != null;
+        animator = GetComponent<Animator>();
+        sliderInput = GetComponent<SliderInput>();
+        characterController = GetComponent<CharacterController>();
     }
 
     public void FixedUpdate()
@@ -53,6 +58,10 @@ public class Beaver : MonoBehaviour
                 break;
             case BeaverState.Building:
                 break;
+            case BeaverState.Cinematic:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
         }
     }
     
